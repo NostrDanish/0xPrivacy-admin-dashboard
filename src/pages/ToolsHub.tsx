@@ -4,7 +4,7 @@ import {
   Shield, Globe, Zap, MessageCircle, Lock, Eye,
   ExternalLink, Fingerprint, Database, ChevronDown, ChevronUp,
   Smartphone, Share2, Unlock, Play, Terminal, Ghost, MailX, Skull,
-  ArrowRight
+  Repeat2, ArrowRight
 } from 'lucide-react';
 import { SiteLayout } from '@/components/layout/SiteLayout';
 import { tools, toolCategories, featuredCollections, type PrivacyTool } from '@/data/tools';
@@ -31,6 +31,7 @@ function getToolIcon(iconName: string) {
     terminal: <Terminal className="w-5 h-5" />,
     ghost: <Ghost className="w-5 h-5" />,
     'mail-x': <MailX className="w-5 h-5" />,
+    repeat: <Repeat2 className="w-5 h-5" />,
     play: <Play className="w-5 h-5" />,
   };
   return iconMap[iconName] || <Shield className="w-5 h-5" />;

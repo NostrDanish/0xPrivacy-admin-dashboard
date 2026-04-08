@@ -49,7 +49,7 @@ export const featuredCollections: FeaturedCollection[] = [
     subtitle: '// financial sovereignty',
     description: 'Swap 700+ coins without accounts, logs, or KYC. Non-custodial. Your money, your rules. Sourced from the KYC.RIP aggregator.',
     accentColor: '#ff9f00',
-    toolIds: ['kycrip', 'ripley-terminal', 'ghost-protocol', 'ghost-mail'],
+    toolIds: ['kycrip', 'fixedfloat', 'ripley-terminal', 'ghost-protocol', 'ghost-mail'],
   },
   {
     id: 'watch-without-watching',
@@ -441,6 +441,24 @@ export const tools: PrivacyTool[] = [
       'Set auto-destruct timers as short as possible',
       'Access through Tor for complete anonymity',
       'Never use for anything you need to keep long-term',
+    ],
+  },
+  {
+    id: 'fixedfloat',
+    name: 'FixedFloat',
+    tagline: 'Non-custodial instant crypto exchange. No KYC. No registration.',
+    description: 'Fast, automated swaps between BTC, ETH, USDT (multiple chains), XMR, Lightning, and dozens more. Choose fixed rate (predictable) or floating rate. Everything happens instantly in fully automatic mode — you send from your wallet, receive directly to your own address. Non-custodial, zero personal details required, trusted since 2018 with full transparency on fees and rates.',
+    category: 'no-kyc',
+    url: 'https://ff.io/',
+    icon: 'repeat',
+    difficulty: 'beginner',
+    featured: 'no-kyc-swaps',
+    tips: [
+      'Use fixed rate mode for predictable swaps — no surprises on the final amount',
+      'Combine with Cashu or Lightning for small private swaps off-chain',
+      'Route through NYM mixnet or Tor for extra metadata protection',
+      'Always verify the destination address yourself before sending',
+      'Perfect for quick, private BTC \u2194 XMR swaps without feeding the surveillance machine',
     ],
   },
 
