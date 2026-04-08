@@ -4,7 +4,9 @@ import {
   Shield, Globe, Zap, MessageCircle, Lock, Eye,
   ExternalLink, Fingerprint, Database, ChevronDown, ChevronUp,
   Smartphone, Share2, Unlock, Play, Terminal, Ghost, MailX, Skull,
-  Repeat2, ArrowRight
+  Repeat2, ArrowRight, Bitcoin, Package, AlertTriangle, Briefcase,
+  Network, Signal, Server, Video, Grid2x2, Code, FileText,
+  MessageSquare, Key, GitBranch, Layers, BookOpen, AtSign, Mail
 } from 'lucide-react';
 import { SiteLayout } from '@/components/layout/SiteLayout';
 import { tools, toolCategories, featuredCollections, type PrivacyTool } from '@/data/tools';
@@ -32,6 +34,24 @@ function getToolIcon(iconName: string) {
     ghost: <Ghost className="w-5 h-5" />,
     'mail-x': <MailX className="w-5 h-5" />,
     repeat: <Repeat2 className="w-5 h-5" />,
+    bitcoin: <Bitcoin className="w-5 h-5" />,
+    package: <Package className="w-5 h-5" />,
+    'alert-triangle': <AlertTriangle className="w-5 h-5" />,
+    briefcase: <Briefcase className="w-5 h-5" />,
+    network: <Network className="w-5 h-5" />,
+    signal: <Signal className="w-5 h-5" />,
+    server: <Server className="w-5 h-5" />,
+    video: <Video className="w-5 h-5" />,
+    grid: <Grid2x2 className="w-5 h-5" />,
+    code: <Code className="w-5 h-5" />,
+    'file-text': <FileText className="w-5 h-5" />,
+    'message-square': <MessageSquare className="w-5 h-5" />,
+    key: <Key className="w-5 h-5" />,
+    'git-branch': <GitBranch className="w-5 h-5" />,
+    layers: <Layers className="w-5 h-5" />,
+    'book-open': <BookOpen className="w-5 h-5" />,
+    'at-sign': <AtSign className="w-5 h-5" />,
+    mail: <Mail className="w-5 h-5" />,
     play: <Play className="w-5 h-5" />,
   };
   return iconMap[iconName] || <Shield className="w-5 h-5" />;
